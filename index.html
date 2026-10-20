@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Nama Kamu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">Porto<span>.</span></a>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#education">Pendidikan</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">HALO, SELAMAT DATANG DI PORTOFOLIO SAYA</p>
+        <h1>Hai, saya <span>Nama Kamu</span></h1>
+        <h2>Pelajar RPL • Calon Web Developer</h2>
+        <p class="intro">Saya tertarik dengan dunia teknologi, pembuatan website, dan desain UI/UX. Saya senang mempelajari hal baru serta mengembangkan ide menjadi karya digital.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">Lihat Proyek</a>
+          <button class="btn secondary" onclick="window.print()">Cetak / Simpan CV</button>
+        </div>
+        <div class="quick-info">
+          <span>📍 Jakarta, Indonesia</span>
+          <span>💻 Rekayasa Perangkat Lunak</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <!-- Ganti foto-profil.jpg dengan nama file foto kamu -->
+        <div class="photo-frame">
+          <img src="foto-profil.jpg" alt="Foto profil Nama Kamu"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo-placeholder">FOTO<br>KAMU</div>
+        </div>
+        <div class="floating-card"><span class="dot"></span> Terus belajar, terus berkembang</div>
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">KENALI SAYA</p>
+        <h2>Tentang <span>Saya</span></h2>
+      </div>
+      <div class="about-card">
+        <p>Saya adalah pelajar jurusan Rekayasa Perangkat Lunak (RPL) di SMK Pangeran Wijayakusuma. Saya sedang mengembangkan kemampuan di bidang pemrograman web dan desain antarmuka. Saya juga belajar bekerja sama dalam tim, berkomunikasi dengan baik, dan bertanggung jawab melalui kegiatan sekolah dan organisasi.</p>
+        <p>Tujuan saya adalah terus meningkatkan keterampilan serta menghasilkan karya yang bermanfaat dan mudah digunakan.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">KEMAMPUAN</p>
+        <h2>Keahlian <span>Saya</span></h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌨</div><h3>HTML</h3><p>Membuat struktur halaman website.</p><div class="skill-bar"><span style="width:75%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">🎨</div><h3>CSS</h3><p>Mengatur warna, tata letak, dan tampilan website.</p><div class="skill-bar"><span style="width:65%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">✦</div><h3>UI/UX Design</h3><p>Membuat rancangan antarmuka yang menarik dan mudah digunakan.</p><div class="skill-bar"><span style="width:70%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Database</h3><p>Mengenal tabel, data, dan dasar pengelolaan database.</p><div class="skill-bar"><span style="width:55%"></span></div></article>
+      </div>
+      <p class="note">Catatan: persentase di atas hanya contoh. Sesuaikan dengan kemampuanmu yang sebenarnya.</p>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">PERJALANAN BELAJAR</p>
+        <h2>Pendidikan & <span>Pengalaman</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="date">2025 – Sekarang</p>
+            <h3>SMK Pangeran Wijayakusuma</h3>
+            <p>Jurusan Rekayasa Perangkat Lunak (RPL)</p>
+            <p>Belajar dasar pemrograman, HTML, CSS, database, dan perancangan UI/UX.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="date">Pengalaman Organisasi</p>
+            <h3>PMR / Kegiatan Sekolah</h3>
+            <p>Tambahkan jabatan, kegiatan, atau pengalaman organisasi yang benar-benar pernah kamu ikuti.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">HASIL KARYA</p>
+        <h2>Proyek <span>Pilihan</span></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-art art-blue"><span>01</span><div class="mini-window"><i></i><i></i><i></i><b>CodeCraft</b><small>Satu Code Satu Semangat</small></div></div>
+          <div class="project-info"><p class="project-type">WEBSITE • HTML & CSS</p><h3>Website CodeCraft</h3><p>Konsep website bertema jurusan RPL yang menampilkan program belajar, fasilitas, dan informasi sekolah.</p><span class="tag">HTML</span><span class="tag">CSS</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-purple"><span>02</span><div class="design-shape">UI<br><b>/ UX</b></div></div>
+          <div class="project-info"><p class="project-type">DESAIN • UI/UX</p><h3>Desain Antarmuka</h3><p>Tambahkan desain aplikasi atau website yang pernah kamu buat di Canva atau Figma.</p><span class="tag">UI/UX</span><span class="tag">Figma / Canva</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-cyan"><span>03</span><div class="poster-sample"><b>DESAIN<br>KREATIF</b><small>Ide • Visual • Pesan</small></div></div>
+          <div class="project-info"><p class="project-type">DESAIN GRAFIS</p><h3>Poster Digital</h3><p>Tambahkan poster sekolah atau desain digital yang menjadi hasil karyamu.</p><span class="tag">Canva</span><span class="tag">Desain</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">HUBUNGI SAYA</p>
+        <h2>Mari <span>Terhubung</span></h2>
+        <p>Terima kasih sudah mengunjungi portofolio saya.</p>
+      </div>
+      <div class="contact-card">
+        <div><span class="contact-symbol">✉</span><div><small>Email</small><p>emailkamu@example.com</p></div></div>
+        <div><span class="contact-symbol">◎</span><div><small>Instagram</small><p>@usernamekamu</p></div></div>
+        <div><span class="contact-symbol">⌖</span><div><small>Lokasi</small><p>Jakarta, Indonesia</p></div></div>
+      </div>
+      <p class="note">Ganti email dan username dengan informasi milikmu. Gunakan kontak yang memang ingin kamu tampilkan secara publik.</p>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">Porto<span>.</span></a><p>© 2026 Nama Kamu • Dibuat dengan HTML & CSS</p></footer>
+</body>
+</html>
